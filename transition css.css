@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    
+
+}
+.box{
+width: 20%;
+height: 200px;
+border:2px solid black;
+transition: all 3s;
+padding-top: 3%;
+transition-property:width , height, font-size;
+transition-duration: 0.5s;
+transition-delay:0.1s;
+
+}
+.box:hover{
+    background-color: cornflowerblue;
+    cursor: grab;
+    font-size: 20px;
+    width: 20%;
+    height: 300px; 
+}
+.box1{
+    background-color: cadetblue;
+
+}
+.box2 .p:hover{
+    display: none;
+}
+.box3{
+
+}
